@@ -10,7 +10,7 @@ body {
   font-weight: normal;
 }
 h1 {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 64px;
   line-height: 80px;
   letter-spacing: -0.03em;
@@ -36,12 +36,9 @@ h6 {
 button {
   border-radius: 8px;
   font-weight: 500;
-}
-p {
-  margin: 0;
+  padding: 0;
 }
 hr {
-  margin: 0;
   background: #4e5a85;
   opacity: 0.2;
 }
@@ -51,6 +48,24 @@ hr {
   color: #7e8bb6;
   letter-spacing: -0.02em;
   width: 400px;
+}
+.small-subheding {
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: #7e8bb6;
+}
+.large-subheding {
+  font-size: 20px;
+  line-height: 32px;
+  letter-spacing: 0.02em;
+  color: #7e8bb6;
+}
+.card-text {
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.01em;
+  color: #ccd2e9;
 }
 .container-80 {
   max-width: 1280px;
@@ -67,19 +82,27 @@ hr {
 .opacity-0-5 {
   opacity: 0.5;
 }
+.border-none {
+  border: none;
+}
+.margin-0 {
+  margin: 0;
+}
+.padding-0 {
+  padding: 0;
+}
+
 .navbar {
   padding: 24px 0;
 }
-.navbar-brand {
-  padding: 0;
-  margin: 0;
-}
 .brand {
   margin-left: 14.67px;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: -0.02em;
 }
 .cta {
   background: #162044;
-  border: none;
 }
 .dashboard {
   padding: 64px 0 72px;
@@ -88,7 +111,8 @@ hr {
   margin-bottom: 32px;
 }
 .logos {
-  padding: 64px 40px;
+  padding: 94px 40px;
+  border-bottom: 1px solid rgba(78, 90, 133, 0.2);
 }
 .features {
   padding: 96px 0;
@@ -97,7 +121,7 @@ hr {
   margin: 16px 0 32px;
 }
 .card {
-  padding: 38px 32px 32px;
+  padding: 32px;
   background: none;
   border: 1px solid #162044;
   border-radius: 16px;
@@ -109,35 +133,19 @@ hr {
 .card-img-top {
   width: fit-content;
 }
-.card-body {
-  padding: 0;
-}
 .card-title {
   margin: 38px 0 16px;
-}
-.card-text {
-  font-size: 16px;
-  line-height: 24px;
-  letter-spacing: -0.01em;
-  color: #ccd2e9;
 }
 .ready-to-start {
   padding: 72px 0;
   background: #0059f7;
   border-radius: 24px;
 }
-.large-subheding {
-  font-size: 20px;
-  line-height: 32px;
-  letter-spacing: 0.02em;
-  color: #7e8bb6;
-}
 .ready-to-start-heading {
   margin: 16px 0 32px;
 }
 .get-started-btn {
   background: #689eff;
-  border: none;
 }
 .arrow {
   margin-left: 14px;
@@ -161,16 +169,16 @@ hr {
   padding: 8px 0 171px;
 }
 .card-header {
-  padding: 0 0 40px;
+  padding-bottom: 40px;
   border-bottom: 2px solid rgba(78, 90, 133, 0.16);
   background-color: transparent;
 }
 .pricing-card {
-  padding: 48px 50px;
+  padding: 48px;
   width: 400px;
   background: #081131;
   box-shadow: 0px 35px 45px rgba(7, 14, 39, 0.05);
-  border-radius: 16px;
+  border: none;
 }
 .transform-pricing-card {
   background: #162044;
@@ -195,11 +203,14 @@ li {
 }
 .pricing-get-started-btn {
   background: #4e5a85;
-  border: none;
 }
 .blue-pricing-get-started-btn {
   background: #0059f7;
-  border: none;
+}
+.get-started-btn,
+.pricing-get-started-btn,
+.blue-pricing-get-started-btn {
+  padding: 20px 24px;
 }
 .ready-to-start-1 {
   margin: 172px 0 132px;
@@ -209,12 +220,6 @@ li {
 }
 .ready-to-start-1-heading {
   margin-top: 16px;
-}
-.small-subheding {
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.03em;
-  color: #7e8bb6;
 }
 footer {
   background: #162044;
